@@ -1,0 +1,9 @@
+client:
+  container_name: miodrag.dev
+  domainname: miodrag.dev
+  hostname: miodrag.dev
+  image: php:7.0-apache
+  ports:
+     - "80:80"
+  volumes:
+   - ./src/:/var/www/html
